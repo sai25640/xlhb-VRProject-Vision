@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc0c81683c9a14e128bad9615424706b, type: 3}
+  m_Name: SMSceneConfiguration
+  m_EditorClassIdentifier: 
+  activeConfiguration: 0
+  levels: []
+  screens:
+  - VRDemo_Hypnosis
+  - VRDemo_Hypnosis_SelectMusic
+  - VRDemo_HypnosisScene1
+  - VRDemo_HypnosisScene2
+  - VRDemo_HypnosisScene3
+  - VRDemo_Login
+  - VRDemo_Meditation
+  - VRDemo_Meditation_SelectMusic
+  - VRDemo_MeditationScene0
+  - VRDemo_MeditationScene1
+  - VRDemo_MeditationScene2
+  - VRDemo_MeditationScene3
+  firstScreen: VRDemo_Login
+  firstScreenAfterLevel: 
+  _guid: 17b3e4eb-8fd6-4f02-8668-854d6494a53e

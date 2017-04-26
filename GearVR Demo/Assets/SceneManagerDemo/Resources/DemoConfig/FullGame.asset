@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc0c81683c9a14e128bad9615424706b, type: 3}
+  m_Name: FullGame
+  m_EditorClassIdentifier: 
+  activeConfiguration: 1
+  levels:
+  - 4c6576656c31
+  - 4c6576656c32
+  - 4c6576656c33
+  - 4c6576656c34
+  screens:
+  - 496e74726f
+  - 4d61696e4d656e75
+  - 4c6576656c53656c656374696f6e4d656e75
+  firstScreen: 496e74726f
+  firstScreenAfterLevel: 4d61696e4d656e75
+  _guid: 36323236353364622d353338662d343964652d616664372d663566653565353236353633
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05eefa0a8d36148169d6634976488b14, type: 3}
+  m_Name: GroupedGame
+  m_EditorClassIdentifier: 
+  activeConfiguration: 0
+  levels:
+  - 4c6576656c31
+  - 4c6576656c32
+  - 4c6576656c33
+  - 4c6576656c34
+  screens:
+  - 496e74726f
+  - 4d61696e4d656e75
+  - 4c6576656c53656c656374696f6e4d656e75
+  - 4375747363656e65
+  firstScreen: 496e74726f
+  firstScreenAfterLevel: 4d61696e4d656e75
+  _guid: 61306634643665662d316432662d343364332d383935652d396566333139643564613163
+  groups:
+  - 45617379204c6576656c73
+  - 48617264204c6576656c73
+  groupOffset: 0000000002000000
+  actionAfterGroup: 1
+  firstScreenAfterGroup: 4375747363656e65
