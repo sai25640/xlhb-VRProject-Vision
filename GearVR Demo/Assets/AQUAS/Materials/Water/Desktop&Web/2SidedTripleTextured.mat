@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: 2SidedTripleTextured
   m_Shader: {fileID: 4800000, guid: f625f9c13440d4e49bf26284e1c8c132, type: 3}
-  m_ShaderKeywords: _ENABLEREFLECTIONS_ON
+  m_ShaderKeywords: _ENABLEREFLECTIONS_ON _USEREFLECTIONS_ON _USINGLINEARCOLORSPACE_ON
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -120,6 +120,41 @@ Material:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FlowMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DistortionTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CutoutReferenceTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Texture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
@@ -184,7 +219,7 @@ Material:
       data:
         first:
           name: _Fade
-        second: 0.85
+        second: 0
       data:
         first:
           name: _Distortion
@@ -204,7 +239,7 @@ Material:
       data:
         first:
           name: _Density
-        second: 0.82
+        second: 1
       data:
         first:
           name: _EnableReflections
@@ -212,7 +247,7 @@ Material:
       data:
         first:
           name: _ReflectionIntensity
-        second: 0.469
+        second: 0.4
       data:
         first:
           name: _FoamTiling
@@ -280,7 +315,7 @@ Material:
       data:
         first:
           name: _LongTilingDistance
-        second: 1500
+        second: 1800
       data:
         first:
           name: _DistanceTilingFade
@@ -341,6 +376,74 @@ Material:
         first:
           name: _FullTransparency
         second: 0
+      data:
+        first:
+          name: _FlowSpeed
+        second: 5
+      data:
+        first:
+          name: _UsingLinearColorSpace
+        second: 1
+      data:
+        first:
+          name: _Transparency
+        second: 0
+      data:
+        first:
+          name: _DistortionIntensity
+        second: 0
+      data:
+        first:
+          name: _DistortionSpeed
+        second: 0
+      data:
+        first:
+          name: _Cutout
+        second: 1.397184
+      data:
+        first:
+          name: _WaterLevel
+        second: 22
+      data:
+        first:
+          name: _DepthFade
+        second: 10
+      data:
+        first:
+          name: _Intensity
+        second: 0
+      data:
+        first:
+          name: _DistanceVisibility
+        second: 0
+      data:
+        first:
+          name: _OffsetSmallBigSmall
+        second: 1
+      data:
+        first:
+          name: _OffsetSmallBigSmallBig
+        second: 0
+      data:
+        first:
+          name: _ShallowDeepBlend
+        second: 3.6
+      data:
+        first:
+          name: _UseReflections
+        second: 0.5395611
+      data:
+        first:
+          name: _Reflectionintensity
+        second: 0.5
+      data:
+        first:
+          name: _EmissionIntensity
+        second: 0
+      data:
+        first:
+          name: _Tiling
+        second: 1
     m_Colors:
       data:
         first:
@@ -370,3 +473,11 @@ Material:
         first:
           name: _SpecularColor
         second: {r: 0.7205882, g: 0.7311851, b: 0.7311851, a: 1}
+      data:
+        first:
+          name: _ShallowWaterColor
+        second: {r: 0.4411765, g: 0.9537525, b: 1, a: 1}
+      data:
+        first:
+          name: _EmissiveColor
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
