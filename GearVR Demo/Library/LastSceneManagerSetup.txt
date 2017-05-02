@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/VRDemo_HypnosisScene1.unity
+- path: Assets/Scenes/VRDemo_Meditation_SelectMusic.unity
   isLoaded: 1
   isActive: 1

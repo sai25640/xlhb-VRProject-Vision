@@ -115,14 +115,14 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _NormalTexture
+          name: _FlowMap
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _FlowMap
+          name: _NormalTexture
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -354,6 +354,14 @@ Material:
         second: 500
       data:
         first:
+          name: _FlowSpeed
+        second: 5
+      data:
+        first:
+          name: _UsingLinearColorSpace
+        second: 1
+      data:
+        first:
           name: _NormalTiling
         second: 1
       data:
@@ -376,14 +384,6 @@ Material:
         first:
           name: _FullTransparency
         second: 0
-      data:
-        first:
-          name: _FlowSpeed
-        second: 5
-      data:
-        first:
-          name: _UsingLinearColorSpace
-        second: 1
       data:
         first:
           name: _Transparency
