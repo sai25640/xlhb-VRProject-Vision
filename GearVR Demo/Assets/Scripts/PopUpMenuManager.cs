@@ -45,14 +45,14 @@ public class PopUpMenuManager : MonoBehaviour
         m_PrompMessage.SetActive(true);
         m_Reticle.Show();
         m_Radial.Hide();
-    
+        
         yield return StartCoroutine(m_SwitchMenuFader.InteruptAndFadeOut());
         yield return StartCoroutine(m_MusicItemCollectorFader.InteruptAndFadeOut());
         yield return StartCoroutine(m_SceneItemCollectorFader.InteruptAndFadeOut());
 
         AudioManager.Instance.PlayBGAudio();
-
         m_PrompMessage.SetActive(false);
+
         yield return StartCoroutine(m_DotFader.InteruptAndFadeIn());    
         yield return StartCoroutine(m_DotSlider.WaitForBarToFill());
         yield return StartCoroutine(m_DotFader.InteruptAndFadeOut());
@@ -64,6 +64,8 @@ public class PopUpMenuManager : MonoBehaviour
         yield return StartCoroutine(m_SwitchMusicSlider.WaitForBarToFill());
         StartCoroutine(m_HomeSlider.WaitForBarToFill());
         yield return StartCoroutine(m_SwitchMenuFader.InteruptAndFadeOut());
+
+        
 
     }
 

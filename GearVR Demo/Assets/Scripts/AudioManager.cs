@@ -37,33 +37,49 @@ public class AudioManager : GenericSingletonClass<AudioManager>
      //≤•∑≈±≥æ∞“Ù¿÷
     public void PlayBGAudio()
     {
-        try
-        {
-            print("PlayBGAudio:" + s_PlayingMusicName);
-            if (m_PlayingMusic)
-            {
-                Destroy(m_PlayingMusic);
-            }
-            //if (m_SoundDictionary.ContainsKey(s_PlayingMusicName))
-            {
-                //m_AudioSoure.clip = m_SoundDictionary[s_PlayingMusicName];
-                //m_AudioSoure.Play();
-                //m_AudioSoure.loop = true;
-                m_PlayingMusic = Instantiate(Resources.Load("Musics/" + s_PlayingMusicName)) as GameObject;
-            }
-        }
-        catch (System.ArgumentNullException ex)
-        {
-            Debug.Log(ex.Message);
-        }
-        catch (System.ArgumentException ex)
-        {
-            Debug.Log(ex.Message);
-        }
-        
-       
+        //try
+        //{
+        //    print("PlayBGAudio:" + s_PlayingMusicName);
+        //    if (m_PlayingMusic)
+        //    {
+        //        Destroy(m_PlayingMusic);
+        //    }
+        //    //if (m_SoundDictionary.ContainsKey(s_PlayingMusicName))
+        //    {
+        //        //m_AudioSoure.clip = m_SoundDictionary[s_PlayingMusicName];
+        //        //m_AudioSoure.Play();
+        //        //m_AudioSoure.loop = true;
+        //        m_PlayingMusic = Instantiate(Resources.Load("Musics/" + s_PlayingMusicName)) as GameObject;
+        //    }
+        //}
+        //catch (System.ArgumentNullException ex)
+        //{
+        //    Debug.Log(ex.Message);
+        //}
+        //catch (System.ArgumentException ex)
+        //{
+        //    Debug.Log(ex.Message);
+        //}
+        StartCoroutine("PlayBGAudio_IE");
     }
     
+    IEnumerator PlayBGAudio_IE()
+    {
+        print("PlayBGAudio:" + s_PlayingMusicName);
+        if (m_PlayingMusic)
+        {
+            Destroy(m_PlayingMusic);
+        }
+        //if (m_SoundDictionary.ContainsKey(s_PlayingMusicName))
+        {
+            //m_AudioSoure.clip = m_SoundDictionary[s_PlayingMusicName];
+            //m_AudioSoure.Play();
+            //m_AudioSoure.loop = true;
+            m_PlayingMusic = Instantiate(Resources.Load("Musics/" + s_PlayingMusicName)) as GameObject;
+        }
+        yield return null;
+    }
+
     public void PauseBGAudio()
     {
         try

@@ -2143,11 +2143,11 @@ Prefab:
         type: 3}
     - target: {fileID: 11434460, guid: 22d7a8a4404a7c94fb60d2e8156c7c1d, type: 2}
       propertyPath: m_Text
-      value: "\u7F8E\u597D\u7761\u7720"
+      value: "\u9633\u5149\u6D77\u6EE9"
       objectReference: {fileID: 0}
     - target: {fileID: 11421934, guid: 22d7a8a4404a7c94fb60d2e8156c7c1d, type: 2}
       propertyPath: m_Text
-      value: "\u653E\u677E\u5FC3\u60C5"
+      value: "\u9AD8\u5C71\u4E91\u6D77"
       objectReference: {fileID: 0}
     - target: {fileID: 11404966, guid: 22d7a8a4404a7c94fb60d2e8156c7c1d, type: 2}
       propertyPath: m_Sprite
@@ -2161,7 +2161,7 @@ Prefab:
         type: 3}
     - target: {fileID: 11446028, guid: 22d7a8a4404a7c94fb60d2e8156c7c1d, type: 2}
       propertyPath: m_Text
-      value: "\u7F13\u89E3\u538B\u529B"
+      value: "\u65F6\u7A7A\u96A7\u9053"
       objectReference: {fileID: 0}
     - target: {fileID: 11476244, guid: 22d7a8a4404a7c94fb60d2e8156c7c1d, type: 2}
       propertyPath: m_Tint.g
