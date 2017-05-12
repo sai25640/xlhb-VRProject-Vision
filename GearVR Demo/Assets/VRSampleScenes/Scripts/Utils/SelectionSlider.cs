@@ -184,7 +184,7 @@ namespace VRStandardAssets.Utils
             // The user is now looking at the bar.
             m_GazeOver = true;
             PopUpMenuManager.m_GazeOver = true;
-            //Debug.Log("HandleOver");
+            Debug.Log("HandleOver");
             // Play the clip appropriate for when the user starts looking at the bar.
             m_Audio.clip = m_OnOverClip;
             m_Audio.Play();

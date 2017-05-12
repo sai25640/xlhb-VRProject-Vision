@@ -57,12 +57,12 @@ public class PopUpMenuManager : MonoBehaviour
         yield return StartCoroutine(m_DotSlider.WaitForBarToFill());
         yield return StartCoroutine(m_DotFader.InteruptAndFadeOut());
 
-        m_Coroutine = StartCoroutine("Timer");
-        
+        //m_Coroutine = StartCoroutine("Timer");
+        StartCoroutine("Timer");
         yield return StartCoroutine(m_SwitchMenuFader.InteruptAndFadeIn());
-        StopCoroutine(m_Coroutine); m_Coroutine = StartCoroutine("Timer");
+        //StopCoroutine(m_Coroutine); StartCoroutine("Timer");
         yield return StartCoroutine(m_SwitchMusicSlider.WaitForBarToFill());
-        StartCoroutine(m_HomeSlider.WaitForBarToFill());
+        //StartCoroutine(m_HomeSlider.WaitForBarToFill());
         yield return StartCoroutine(m_SwitchMenuFader.InteruptAndFadeOut());
 
         
@@ -73,12 +73,18 @@ public class PopUpMenuManager : MonoBehaviour
     {
         if(m_AutoRotation)
             m_AutoRotation.rotSpeed = 0f;
-        do
+        //do
+        //{
+        //    Debug.Log("WaitAndPrint " + Time.time);
+        //    yield return new WaitForSeconds(8f);
+
+        //} while (m_GazeOver);
+        while (m_GazeOver)
         {
-            yield return new WaitForSeconds(8f);
             //Debug.Log("WaitAndPrint " + Time.time);
-        } while (m_GazeOver);
- 
+            yield return new WaitForSeconds(8f);
+        }
+
         yield return StartCoroutine(m_SwitchMenuFader.InteruptAndFadeOut());
         yield return StartCoroutine(m_MusicItemCollectorFader.InteruptAndFadeOut());
         yield return StartCoroutine(m_SceneItemCollectorFader.InteruptAndFadeOut());
@@ -90,11 +96,12 @@ public class PopUpMenuManager : MonoBehaviour
         yield return StartCoroutine(m_DotSlider.WaitForBarToFill());
         yield return StartCoroutine(m_DotFader.InteruptAndFadeOut());
 
+        //Coroutine coroutine = StartCoroutine("Timer");
         StartCoroutine("Timer");
-
         yield return StartCoroutine(m_SwitchMenuFader.InteruptAndFadeIn());
+        //StopCoroutine(coroutine); StartCoroutine("Timer");
         yield return StartCoroutine(m_SwitchMusicSlider.WaitForBarToFill());
-        StartCoroutine(m_HomeSlider.WaitForBarToFill());
+        //StartCoroutine(m_HomeSlider.WaitForBarToFill());
 
         
     }
