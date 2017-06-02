@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: READABLE SM v1.6 CLOUD DOME 4a
+  m_Shader: {fileID: 4800000, guid: 24e669c52cf68c643862ed6adaf3195c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: e30fccb4a9ac6754f99eb8d1cb261e28, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Jitter
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 0.2, y: 0.49}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Bump
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AlphaMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normals
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _WaveMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RefractTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0.3
+      data:
+        first:
+          name: _Shininess
+        second: 0.6287773
+      data:
+        first:
+          name: PixelSnap
+        second: 0
+      data:
+        first:
+          name: _Parallax
+        second: 0.02
+      data:
+        first:
+          name: _InvFade
+        second: 0.83982146
+      data:
+        first:
+          name: _SquashAmount
+        second: 1
+      data:
+        first:
+          name: _CloudCover
+        second: 0
+      data:
+        first:
+          name: _CloudSharpness
+        second: 0.997
+      data:
+        first:
+          name: _CloudDensity
+        second: 0
+      data:
+        first:
+          name: _Forward
+        second: 0
+      data:
+        first:
+          name: _CloudSize
+        second: 1
+      data:
+        first:
+          name: _AmbientFactor
+        second: 1
+      data:
+        first:
+          name: _HorizonCutoff
+        second: 0.48
+      data:
+        first:
+          name: _TranslucencyViewDependency
+        second: 0.7
+      data:
+        first:
+          name: _ShadowStrength
+        second: 1
+      data:
+        first:
+          name: _Power
+        second: 0.5
+      data:
+        first:
+          name: _Alpha
+        second: 0.25
+      data:
+        first:
+          name: _Influence
+        second: 15
+      data:
+        first:
+          name: _WaveHeight
+        second: 0.08
+    m_Colors:
+      data:
+        first:
+          name: _Scale
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 0.84705806, g: 0.84705806, b: 0.84705806, a: 0.79999924}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.5147059, g: 0.5147059, b: 0.5147059, a: 0}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0.062939994, g: 0.055527393, b: 0.07352942, a: 0}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 0.7372549}
+      data:
+        first:
+          name: _Ambient
+        second: {r: 0.7204605, g: 0.7204605, b: 0.7204605, a: 0.79999924}
+      data:
+        first:
+          name: _SunDir
+        second: {r: -711.6, g: -190, b: 36.16, a: 0}
+      data:
+        first:
+          name: _CloudSpeed
+        second: {r: -0.06, g: -0.011034, b: 0.12, a: -1.74}
+      data:
+        first:
+          name: _TranslucencyColor
+        second: {r: 0.73, g: 0.85, b: 0.41, a: 1}
+      data:
+        first:
+          name: _EmisColor
+        second: {r: 0.9558824, g: 0.93280935, b: 0.93280935, a: 0.23529412}
+      data:
+        first:
+          name: _MainCol
+        second: {r: 1, g: 1, b: 1, a: 0.5}
+      data:
+        first:
+          name: _FresnelColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

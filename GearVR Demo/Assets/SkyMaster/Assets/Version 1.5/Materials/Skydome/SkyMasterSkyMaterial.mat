@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SkyMasterSkyMaterial
+  m_Shader: {fileID: 4800000, guid: ebf6ad3f82dcbb84dae373a541499b31, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ColorRamp
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Coloration
+        second: 0.1
+      data:
+        first:
+          name: fOuterRadius
+        second: 10250
+      data:
+        first:
+          name: fOuterRadius2
+        second: 105062500
+      data:
+        first:
+          name: fInnerRadius
+        second: 10000
+      data:
+        first:
+          name: fInnerRadius2
+        second: 100000000
+      data:
+        first:
+          name: fKrESun
+        second: 0.014127694
+      data:
+        first:
+          name: fKmESun
+        second: 0.000664
+      data:
+        first:
+          name: fKr4PI
+        second: 0.10694811
+      data:
+        first:
+          name: fKm4PI
+        second: 0.005026548
+      data:
+        first:
+          name: fScale
+        second: 0.004
+      data:
+        first:
+          name: fScaleDepth
+        second: 0.06
+      data:
+        first:
+          name: fScaleOverScaleDepth
+        second: 0.13333334
+      data:
+        first:
+          name: fExposure
+        second: 1.6
+      data:
+        first:
+          name: fCameraHeight
+        second: 0
+      data:
+        first:
+          name: fCameraHeight2
+        second: 0
+      data:
+        first:
+          name: fSamples
+        second: 0.02
+      data:
+        first:
+          name: Bump_strenght
+        second: 0
+      data:
+        first:
+          name: g
+        second: -0.9990211
+      data:
+        first:
+          name: g2
+        second: 0.9980432
+    m_Colors:
+      data:
+        first:
+          name: _TintColor
+        second: {r: 0.19607843, g: 0.019607844, b: 0.05882353, a: 1}
+      data:
+        first:
+          name: v3CameraPos
+        second: {r: -0.0000038146973, g: -9689.996, b: 3.7083206, a: 0}
+      data:
+        first:
+          name: v3LightDir
+        second: {r: -0.1604128, g: 0.2756471, b: 0.9477797, a: 0}
+      data:
+        first:
+          name: v3LightDirMoon
+        second: {r: 0.28155044, g: 0.47781533, b: 0.83211887, a: 0}
+      data:
+        first:
+          name: v3InvWavelength
+        second: {r: 32.136818, g: 74.831474, b: 123.45677, a: 0}

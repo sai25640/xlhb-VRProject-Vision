@@ -115,6 +115,9 @@
     <Reference Include="ProDrawCallOptimizerDLL">
       <HintPath>Assets\ProDrawCallOptimizer\Scripts\Editor\ProDrawCallOptimizerDLL.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-UnityScript">
       <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
     </Reference>
@@ -178,6 +181,11 @@
     <Compile Include="Assets\SceneManager\Editor\SMSceneListDragSource.cs" />
     <Compile Include="Assets\SceneManager\Editor\SMSceneListDropTarget.cs" />
     <Compile Include="Assets\SceneManager\Editor\SMSceneRenderer.cs" />
+    <Compile Include="Assets\SkyMaster\Scripts\V1.5 Scripts\Editor\Tags.cs" />
+    <Compile Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\Editor\ColorCorrectionCurvesEditorSM.cs" />
+    <Compile Include="Assets\SkyMaster\Scripts\V2.1 Scripts\Filters\Bloom\Editor\BloomEditorSkyMaster.cs" />
+    <Compile Include="Assets\SkyMaster\Scripts\V3.0 Scripts\Editor\SkyMasterInspector.cs" />
+    <Compile Include="Assets\SkyMaster\Scripts\V3.0 Scripts\Water\Editor\CreatePlaneSM.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AQUAS\Readme.txt" />
@@ -221,6 +229,55 @@
     <None Include="Assets\SceneManager\Resources\Shader\SMTetrisEffect.shader" />
     <None Include="Assets\SceneManager\Resources\Shader\SMTilesEffect.shader" />
     <None Include="Assets\SceneManagerDemo\README.txt" />
+    <None Include="Assets\SkyMaster\Assets\Version 1.0\Shaders\ScrollProjectorUVs.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 1.0\Shaders\SkyMasterShaderE.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 1.0\Shaders\SkyMaster_SM_Additive_Soft.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 1.0\Shaders\SkyMaster_SM_Additive_Soft_LOWCLOUDS.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 1.5\Unity 5 Scene\Shaders\Water\FXWater4Advanced SM30 LOCAL LIGHTS and Waves.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 2.0\Shaders\Water\Refraction 2_FADE SM.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 2.1\Shaders\Dual Sun Skybox\Skybox-Procedural_SkyMaster MAIN U5 TEXTURED DUAL.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 2.2\DROPLETS\DropletsSKYMASTER.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 2.2\Moon Shader\MoonShaderSM.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 2.2\SNOW\SM_TerrainSNOW_Lite.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 2.2\SNOW\SnowShaderSM3.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 2.2\Scatter Shaded Clouds\SM_Cloud_Dome_Shader.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 2.2\Scatter Shaded Clouds\ScatterShadedCloud MOTION Soft.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 2.2\Scatter Shaded Clouds\ScatterShadedCloud MOTION.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 2.2\Scatter Shaded Clouds\ScatterShadedCloud.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 2.2\SkyShading\Skybox-Procedural_SkyMaster MAIN U5 TEXTURED v3.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 2.2\TerrainShading\Resources\TreeCreatorLeavesOptimized.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 2.2\TerrainShading\Resources\TreeSoftOcclusionLeaves.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 2.2\VolumetricShader\VolumeLitParticlesPDM.shader" />
+    <None Include="Assets\SkyMaster\Assets\Version 3.3\Stars\StarsShaderSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\AntiAliasing\DLAA 1.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\AntiAliasing\FXAA3.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\AntiAliasing\FXAA3Console 1.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\AntiAliasing\FXAAPreset4.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\AntiAliasing\FXAAPreset5.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\AntiAliasing\NFAA 1.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\AntiAliasing\SSAA 1.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\ColorCorrection\ColorCorrectionCurvesSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\ColorCorrection\ColorCorrectionCurvesSimpleSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\ColorCorrection\ColorCorrectionSelectiveSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\ContrastFilter\AdaptationSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\ContrastFilter\ApplySM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\ContrastFilter\LuminanceSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\ContrastFilter\MinMaxReductionSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\ScatterFog\GlobalFogSkyMaster.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\Shafts\SimpleClearSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\Shafts\SunShaftsCompositeSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.1 Scripts\Filters\Bloom\BlendForBloomSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.1 Scripts\Filters\Bloom\BlurAndFlaresSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.1 Scripts\Filters\Bloom\BrightPassFilter2SM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V2.1 Scripts\Filters\Bloom\LensFlareCreateSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V3.0 Scripts\Image Effects\ChromaticAberrationShaderSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V3.0 Scripts\Image Effects\SeparableBlurSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V3.0 Scripts\Image Effects\TonemapperSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V3.0 Scripts\Image Effects\VignettingShaderSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V3.0 Scripts\ShoreLine\TerrainDepthSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V3.0 Scripts\Water\Underwater\DepthOfFieldDX11_SM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V3.0 Scripts\Water\Underwater\ProjectorCausticsSM.shader" />
+    <None Include="Assets\SkyMaster\Scripts\V3.0 Scripts\Water\Underwater\UnderWaterImageEffect.shader" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

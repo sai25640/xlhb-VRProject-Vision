@@ -1,4 +1,101 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: getPlatforms
-Cmd: compileSnippet
-  api=4 type=0 insize=7505 outsize=3249 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: preprocess
+  insize=514 outsize=243 ok=1
+Cmd: preprocess
+  insize=6740 outsize=239 ok=1
+Cmd: preprocess
+  insize=4899 outsize=2870 ok=1
+Cmd: preprocess
+  insize=2449 outsize=1119 ok=1
+Cmd: preprocess
+  insize=7695 outsize=1220 ok=1
+Cmd: preprocess
+  insize=2205 outsize=1068 ok=1
+Cmd: preprocess
+  insize=522 outsize=343 ok=1
+Cmd: preprocess
+  insize=4520 outsize=1440 ok=1
+Cmd: preprocess
+  insize=5504 outsize=2505 ok=1
+Cmd: preprocess
+  insize=23972 outsize=4109 ok=1
+Cmd: preprocess
+  insize=5178 outsize=1724 ok=1
+Cmd: preprocess
+  insize=4307 outsize=420 ok=1
+Cmd: preprocess
+  insize=9622 outsize=2270 ok=1
+Cmd: preprocess
+  insize=4287 outsize=1002 ok=1
+Cmd: preprocess
+  insize=1195 outsize=305 ok=1
+Cmd: preprocess
+  insize=1316 outsize=364 ok=1
+Cmd: preprocess
+  insize=3092 outsize=2015 ok=1
+Cmd: preprocess
+  insize=1267 outsize=384 ok=1
+Cmd: preprocess
+  insize=1678 outsize=283 ok=1
+Cmd: preprocess
+  insize=7348 outsize=2429 ok=1
+Cmd: preprocess
+  insize=5173 outsize=739 ok=1
+Cmd: preprocess
+  insize=32576 outsize=258 ok=1
+Cmd: preprocess
+  insize=1065 outsize=408 ok=1
+Cmd: preprocess
+  error: 2 plat 18 at (66): Can't find include file ./WaterIncludeSM30.cginc
+  insize=29441 outsize=4725 ok=0
+Cmd: preprocess
+  insize=801 outsize=278 ok=1
+Cmd: preprocess
+  insize=1267 outsize=274 ok=1
+Cmd: preprocess
+  insize=2131 outsize=986 ok=1
+Cmd: preprocess
+  insize=10967 outsize=665 ok=1
+Cmd: preprocess
+  insize=2237 outsize=621 ok=1
+Cmd: preprocess
+  insize=8304 outsize=1227 ok=1
+Cmd: preprocess
+  insize=5719 outsize=1221 ok=1
+Cmd: preprocess
+  insize=1019 outsize=472 ok=1
+Cmd: preprocess
+  insize=3523 outsize=642 ok=1
+Cmd: preprocess
+  insize=1923 outsize=467 ok=1
+Cmd: preprocess
+  insize=2967 outsize=1065 ok=1
+Cmd: preprocess
+  insize=32586 outsize=258 ok=1
+Cmd: preprocess
+  insize=4610 outsize=889 ok=1
+Cmd: preprocess
+  insize=8335 outsize=2046 ok=1
+Cmd: preprocess
+  insize=2443 outsize=484 ok=1
+Cmd: preprocess
+  insize=1166 outsize=386 ok=1
+Cmd: preprocess
+  insize=2180 outsize=448 ok=1
+Cmd: preprocess
+  insize=1099 outsize=291 ok=1
+Cmd: preprocess
+  insize=4772 outsize=1781 ok=1
+Cmd: preprocess
+  insize=3304 outsize=1028 ok=1
+Cmd: preprocess
+  insize=5682 outsize=1077 ok=1
+Cmd: preprocess
+  insize=7781 outsize=1817 ok=1
+Cmd: preprocess
+  insize=10335 outsize=2135 ok=1
+Cmd: preprocess
+  insize=3380 outsize=1094 ok=1
+Cmd: preprocess
+  insize=9617 outsize=785 ok=1
